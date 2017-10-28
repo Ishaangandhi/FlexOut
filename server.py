@@ -30,3 +30,6 @@ def prices():
     with open('prices.json', 'r') as json_prices_file:
         json_content = json_prices_file.read()
         return json_content
+        
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
